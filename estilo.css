@@ -1,5 +1,5 @@
 h1{
-	color: black;
+	color: red;
 	font-size: 50px;
 }
 img {
@@ -11,9 +11,10 @@ img {
 }
 p{
 	text-align: justify;
-	color: black;
+	color:white;
 	margin-left: 10%;
 	margin-right: 10%;
+	text-align: center;
 }
 button {
 	background-color: black;
@@ -21,12 +22,19 @@ button {
 	font-size: 20px;
 }
 body{
-	background-color: white;
+	background-color: black;
 }
 .books{
 	text-align: center;
+	display:none;
 	/* display:none; */
 }
 /* .books.active{
 	display:block;
 } */
+
+.end{
+	display:none;
+	text-align: center;
+	font-size: 25px
+}
